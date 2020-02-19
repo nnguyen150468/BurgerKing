@@ -1,0 +1,65 @@
+.deal-info {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+    padding: 50px;
+
+}
+
+body {
+    background: #f0ebe5;
+}
+
+
+.deals-left ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.deals {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.title-bar {
+    background-color: #ff6600;
+    color: white;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 8px;
+}
+
+.rows {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.individual-deal {
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+    padding-top: 15px;
+}
+
+.deal-img {
+    width: 250px;
+}
+
+.og-price {
+    color: grey;
+    text-decoration: line-through;
+    font-size: 18px;
+}
+
+button {
+    width: 250px;
+}
+
+.space {
+    margin-top: 100px;
+}
