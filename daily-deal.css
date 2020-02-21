@@ -9,6 +9,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.deal-info h3{
+    color: crimson;
+}
+
 body {
     background: #f0ebe5;
 }
@@ -26,10 +30,10 @@ body {
 }
 
 .title-bar {
-    background-color: #ff6600;
+    background-color: #ad2301;
     color: white;
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Kavoon';
     padding: 8px;
 }
 
@@ -48,15 +52,20 @@ body {
 
 .deal-img {
     width: 250px;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
+  
+.deal-img:hover {
+    opacity: 0.5;
+  }
 
 .og-price {
     color: grey;
     text-decoration: line-through;
     font-size: 18px;
 }
-
-
 
 button {
     width: 250px;

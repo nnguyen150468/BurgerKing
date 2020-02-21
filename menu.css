@@ -25,6 +25,18 @@ p {
     background-color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.product-img {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+.product-img:hover {
+    opacity: 0.5;
+  }
 
 button {
     width: 300px;
@@ -39,7 +51,7 @@ button {
 }
 
 button:hover {
-    background-color: green;
+    background-color: #F35B04;
 }
 
 .extra {
@@ -48,9 +60,7 @@ button:hover {
     padding-top: 30px;
 }
 
-.map {
+.map, .chatbot {
     border: 5px solid;
-    border-radius: 30px;
     background-color: white;
-    padding: 20px 5px 5px 20px;
 }
